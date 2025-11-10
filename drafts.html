@@ -21,7 +21,7 @@
           <i class="fas fa-th-large"></i>
           <span class="nav-link-text">Dashboard</span>
         </a>
-        <a href="bookings.html" class="nav-link" data-testid="link-trip-booking">
+        <a href="booking.html" class="nav-link" data-testid="link-trip-booking">
           <i class="fas fa-ticket-alt"></i>
           <span class="nav-link-text">Trip Booking</span>
         </a>
@@ -160,7 +160,7 @@
             <i class="fas fa-file-alt" style="font-size: 48px; color: var(--text-tertiary); margin-bottom: 16px;"></i>
             <h3 style="color: var(--text); margin-bottom: 8px;">No drafts yet</h3>
             <p style="color: var(--text-secondary);">Your saved bookings will appear here</p>
-            <a href="bookings.html" class="btn btn-primary" style="margin-top: 16px;">Start Booking</a>
+            <a href="booking.html" class="btn btn-primary" style="margin-top: 16px;">Start Booking</a>
           </div>
         `;
         return;
@@ -242,7 +242,7 @@
     function resumeDraft(id) {
       showToast('Resuming booking...', 'info');
       setTimeout(() => {
-        window.location.href = 'bookings.html';
+        window.location.href = 'booking.html';
       }, 1000);
     }
     
